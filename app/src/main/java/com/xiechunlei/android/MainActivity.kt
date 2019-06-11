@@ -1,14 +1,13 @@
-package com.demo.xiechunlei.dagger
+package com.xiechunlei.android
 
 import android.os.Bundle
 import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import com.demo.xiechunlei.dagger.injector.component.DaggerAppComponent
-import com.demo.xiechunlei.dagger.injector.module.ApplicationModule
-import com.demo.xiechunlei.dagger.model.Car
-
+import com.xiechunlei.android.dagger.injector.component.DaggerAppComponent
+import com.xiechunlei.android.dagger.injector.module.ApplicationModule
+import com.xiechunlei.android.dagger.model.Car
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 

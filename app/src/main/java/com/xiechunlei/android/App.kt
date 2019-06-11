@@ -1,4 +1,4 @@
-package com.demo.xiechunlei.dagger
+package com.xiechunlei.android
 
 import android.app.Application
 import kotlin.properties.Delegates

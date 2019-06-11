@@ -1,6 +1,6 @@
-package com.demo.xiechunlei.dagger.model
+package com.xiechunlei.android.dagger.model
 
-import com.demo.xiechunlei.extension.klog
+import com.xiechunlei.android.extension.klog
 
 class Seat constructor() {
 

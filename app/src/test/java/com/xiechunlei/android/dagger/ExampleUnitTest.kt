@@ -1,4 +1,4 @@
-package com.demo.xiechunlei.dagger
+package com.xiechunlei.android.dagger
 
 import org.junit.Test
 

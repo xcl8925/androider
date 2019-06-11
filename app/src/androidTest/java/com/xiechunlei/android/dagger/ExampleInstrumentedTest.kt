@@ -1,4 +1,4 @@
-package com.demo.xiechunlei.dagger
+package com.xiechunlei.android.dagger
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

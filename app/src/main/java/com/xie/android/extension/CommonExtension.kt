@@ -1,4 +1,4 @@
-package com.xiechunlei.android.extension
+package com.xie.android.extension
 
 import android.util.Log
 

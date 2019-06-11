@@ -1,8 +1,8 @@
-package com.xiechunlei.android.dagger.model
+package com.xie.android.dagger.model
 
 import android.util.Log
-import com.xiechunlei.android.dagger.injector.component.DaggerCarComponent
-import com.xiechunlei.android.dagger.injector.module.CarModule
+import com.xie.android.dagger.injector.component.DaggerCarComponent
+import com.xie.android.dagger.injector.module.CarModule
 import javax.inject.Inject
 
 class Car {

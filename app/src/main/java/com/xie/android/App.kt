@@ -1,4 +1,4 @@
-package com.xiechunlei.android
+package com.xie.android
 
 import android.app.Application
 import kotlin.properties.Delegates

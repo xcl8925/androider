@@ -1,6 +1,6 @@
-package com.xiechunlei.android.dagger.injector.module
+package com.xie.android.dagger.injector.module
 
-import com.xiechunlei.android.App
+import com.xie.android.App
 import dagger.Module
 import dagger.Provides
 

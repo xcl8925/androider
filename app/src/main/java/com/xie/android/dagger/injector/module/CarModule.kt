@@ -1,8 +1,8 @@
-package com.xiechunlei.android.dagger.injector.module
+package com.xie.android.dagger.injector.module
 
-import com.xiechunlei.android.dagger.model.Engine
-import com.xiechunlei.android.dagger.model.Oil
-import com.xiechunlei.android.dagger.model.Seat
+import com.xie.android.dagger.model.Engine
+import com.xie.android.dagger.model.Oil
+import com.xie.android.dagger.model.Seat
 import dagger.Module
 import dagger.Provides
 

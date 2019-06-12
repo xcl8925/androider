@@ -6,8 +6,12 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.xie.android.dagger.injector.component.DaggerAppComponent
+import com.xie.android.dagger.injector.component.DaggerSizeComponent
 import com.xie.android.dagger.injector.module.ApplicationModule
 import com.xie.android.dagger.model.Car
+import com.xie.android.dagger.model.Oil
+import com.xie.android.dagger.model.Seat
+import com.xie.android.dagger.model.Size
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 
@@ -15,6 +19,9 @@ class MainActivity : AppCompatActivity() {
 
     @Inject
     lateinit var app: App
+
+    @Inject
+    lateinit var seat: Seat
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +33,7 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
+        //dagger
         Car().seat.seat()
 
         init()
@@ -34,7 +42,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun init() {
+        //dagger
         DaggerAppComponent.builder().applicationModule(ApplicationModule()).build().inject(this)
+
+//        DaggerSizeComponent.create().inject(Size())
+        DaggerSizeComponent.builder().applicationModule(ApplicationModule()).build().inject(Size())
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -5,6 +5,7 @@ import com.xie.android.dagger.model.Oil
 import com.xie.android.dagger.model.Seat
 import dagger.Module
 import dagger.Provides
+import javax.inject.Named
 
 @Module
 class CarModule {
@@ -21,5 +22,12 @@ class CarModule {
     @Provides
     fun provideSeat(): Seat {
         return Seat(12.1)
+    }
+
+//    @SeatColor(color = "black")
+    @Named("0")
+    @Provides
+    fun provideIntSeat(): Seat {
+        return Seat("black")
     }
 }
